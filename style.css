@@ -1,0 +1,46 @@
+.game-board {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+  }
+  body{
+    background-color: rgb(144, 245, 245);
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #ccc;
+  }
+  
+  #game-status {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+div[class="board"]{
+    size-adjust: 50px;
+    block-size: 10px;
+    font-size: 70px;
+}
+h1{
+    text-align: center;
+    text-underline-position: below;
+    size: 70px;
+    font-size: 90px;
+}
